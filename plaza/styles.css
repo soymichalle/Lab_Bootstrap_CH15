@@ -15,5 +15,20 @@ Escribe tu CSS DEBAJO de este comentario.
 
 Recuerda: este archivo se enlaza DESPUÉS de Bootstrap.
 La paleta es tuya: colores cálidos de plaza de mercado.
+
+profe como me va a poner a hacer root TnT (crisis existencial nocturna)
 ============================================================
 */
+
+:root {
+  --bs-primary: #f29b79;
+  --bs-primary-rgb: 242, 155, 121;
+  --bs-body-font-family: "Roboto", sans-serif;
+}
+
+.btn-primary {
+  --bs-btn-bg: #f29b79;
+  /* Si quiero B) */
+  --bs-btn-border-color: #f29b79;
+  --bs-btn-hover-bg: #b03005;
+}

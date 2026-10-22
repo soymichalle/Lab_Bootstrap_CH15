@@ -34,7 +34,9 @@ Ejercicio 08 · La letra
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio</title>
+  <title>Puestos</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -78,20 +80,99 @@ Ejercicio 08 · La letra
 
     </div>
   </nav>
-<main>
-  <section class="container">
-<div class="row">
-  <div class="col-4">
-    <!-- Frutas -->
-     <!-- Panaderia -->
-      <!-- Almuerzos -->
-       <!-- Jugos -->
-        <!-- Cafe -->
-  </div>
-  <div class="col-8"></div>
-</div>
-  </section>
-</main>
+  <main>
+    <section class="container p-4">
+      <div class="row g-3">
+
+        <div class="col-12 col-lg-4">
+          <ul class="list-group">
+            <li class="list-group-item">Frutas</li>
+            <li class="list-group-item">Panaderia</li>
+            <li class="list-group-item">Almuerzos</li>
+            <li class="list-group-item">Jugos</li>
+            <li class="list-group-item">Cafe</li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-lg-8">
+          <div class="row g-3">
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <span class="badge text-bg-secondary">Ultimas unidades</span>
+                  <h2 class="card-title">Populares hoy</h2>
+                  <p class="card-text">Manzanas Frescas</p>
+                  <a href="contacto.html" class="btn btn-primary">Consultar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <span class="badge text-bg-info">Nuevo</span>
+                  <h2 class="card-title">Mini-Manzanas</h2>
+                  <p class="card-text">Manzanas Enanas</p>
+                  <a href="contacto.html" class="btn btn-primary">Consultar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <span class="badge text-bg-success">Sin conservantes</span>
+                  <h2 class="card-title">Manzanas enlatadas</h2>
+                  <p class="card-text">Frescas y dulces</p>
+                  <a href="contacto.html" class="btn btn-primary">Consultar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <span class="badge text-bg-warning">Limitado</span>
+                  <h2 class="card-title">Manzanas encurtidas</h2>
+                  <p class="card-text">En rodajas o enteras frescas y deliciosas</p>
+                  <a href="contacto.html" class="btn btn-primary">Consultar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container my-4">
+      <h2>Lista de precios</h2>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Manzanas frescas</td>
+            <td>$4.000/kg</td>
+          </tr>
+          <tr>
+            <td>Pan artesanal</td>
+            <td>$3.000</td>
+          </tr>
+          <tr>
+            <td>Jugo natural</td>
+            <td>$5.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
   <footer class="bg-dark text-white text-center py-4">
     <div class="container">
       <p class="mb-1">Sabores de la Plaza</p>
